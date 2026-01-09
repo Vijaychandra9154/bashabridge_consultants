@@ -192,3 +192,17 @@ footer {
   }
 }
 
+/* ===== LOGO WITH TEXT ===== */
+.logo {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-size: 26px;
+  font-weight: 700;
+}
+
+.logo img {
+  width: 42px;
+  height: auto;
+}
+
