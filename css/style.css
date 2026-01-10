@@ -5,11 +5,13 @@
 }
 
 body {
-  font-family: Inter, Arial, sans-serif;
+  margin: 0;
+  font-family: 'Inter', Arial, sans-serif;
   color: #1f2937;
-  line-height: 1.6;
+  line-height: 1.65;
   background: #ffffff;
 }
+
 
 /* HEADER */
 header {
@@ -222,6 +224,40 @@ footer {
   border-radius: 8px;
   border: 1px solid #ddd;
   font-size: 14px;
+}
+
+h1, h2, h3, h4 {
+  font-family: 'Playfair Display', serif;
+  color: #111827;
+  letter-spacing: 0.2px;
+}
+
+h1 {
+  font-size: 42px;
+  line-height: 1.2;
+}
+
+h2 {
+  font-size: 34px;
+  margin-bottom: 12px;
+}
+
+h3 {
+  font-size: 24px;
+}
+
+h4 {
+  font-size: 18px;
+}
+.card p {
+  font-size: 15px;
+  color: #4b5563;
+  line-height: 1.6;
+}
+
+.section-subtitle {
+  font-size: 16px;
+  color: #6b7280;
 }
 
 
