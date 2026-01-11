@@ -31,23 +31,8 @@ header {
   justify-content: space-between;
 }
 
-/* ===== LOGO SIZE CONTROL ===== */
 .logo {
-  display: flex;
-  align-items: center;
-  gap: 10px;
-}
-
-.logo img {
-  height: 48px;          /* DESKTOP size */
-  width: auto;
-}
-
-/* Bigger logo on mobile */
-@media (max-width: 768px) {
-  .logo img {
-    height: 56px;        /* MOBILE bigger logo */
-  }
+  font-weight: 700;
 }
 
 
@@ -211,19 +196,25 @@ footer {
   }
 }
 
-/* ===== LOGO WITH TEXT ===== */
+/* ===== LOGO SIZE CONTROL ===== */
 .logo {
   display: flex;
   align-items: center;
   gap: 10px;
-  font-size: 26px;
-  font-weight: 700;
 }
 
 .logo img {
-  width: 42px;
-  height: auto;
+  height: 48px;          /* DESKTOP size */
+  width: auto;
 }
+
+/* Bigger logo on mobile */
+@media (max-width: 768px) {
+  .logo img {
+    height: 56px;        /* MOBILE bigger logo */
+  }
+}
+
 /* CONTACT FORM */
 .contact-form {
   max-width: 520px;
@@ -276,6 +267,7 @@ h4 {
   font-size: 16px;
   color: #6b7280;
 }
+
 
 
 
