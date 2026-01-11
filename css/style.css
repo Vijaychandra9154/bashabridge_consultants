@@ -200,7 +200,7 @@ footer {
 .logo {
   display: flex;
   align-items: center;
-  gap: 10px;
+  gap: 4px;
 }
 
 .logo img {
@@ -267,6 +267,7 @@ h4 {
   font-size: 16px;
   color: #6b7280;
 }
+
 
 
 
