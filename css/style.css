@@ -204,14 +204,14 @@ footer {
 }
 
 .logo img {
-  height: 56px;          /* DESKTOP size */
+  height: 70px;          /* DESKTOP size */
   width: auto;
 }
 
 /* Bigger logo on mobile */
 @media (max-width: 768px) {
   .logo img {
-    height: 64px;        /* MOBILE bigger logo */
+    height: 80px;        /* MOBILE bigger logo */
   }
 }
 
@@ -267,6 +267,7 @@ h4 {
   font-size: 16px;
   color: #6b7280;
 }
+
 
 
 
