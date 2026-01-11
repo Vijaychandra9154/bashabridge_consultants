@@ -213,6 +213,13 @@ footer {
   .logo img {
     height: 80px;        /* MOBILE bigger logo */
   }
+  .logo h1,
+.logo span {
+  margin: 0;
+  padding: 0;
+  line-height: 1.2;
+}
+
 }
 
 /* CONTACT FORM */
@@ -267,6 +274,7 @@ h4 {
   font-size: 16px;
   color: #6b7280;
 }
+
 
 
 
