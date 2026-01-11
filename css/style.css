@@ -200,7 +200,7 @@ footer {
 .logo {
   display: flex;
   align-items: center;
-  gap: 1px;
+  gap: 4px;
 }
 
 .logo img {
@@ -291,6 +291,7 @@ h4 {
     margin-left: 0 !important;
   }
 }
+
 
 
 
