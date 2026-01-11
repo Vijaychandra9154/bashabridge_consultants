@@ -196,29 +196,18 @@ footer {
   }
 }
 
-/* ===== LOGO SIZE CONTROL ===== */
+/* ===== LOGO WITH TEXT ===== */
 .logo {
   display: flex;
   align-items: center;
   gap: 4px;
+  font-size: 26px;
+  font-weight: 700;
 }
 
 .logo img {
-  height: 70px;          /* DESKTOP size */
-  width: auto;
-}
-
-/* Bigger logo on mobile */
-@media (max-width: 768px) {
-  .logo img {
-    height: 80px;        /* MOBILE bigger logo */
-  }
-.logo h1,
-.logo span,
-.logo p {
-  margin: 0 !important;
-  padding: 0 !important;
-  line-height: 1.2;
+  width: 42px;
+  height: auto;
 }
 
 
@@ -276,21 +265,8 @@ h4 {
   font-size: 16px;
   color: #6b7280;
 }
-@media (max-width: 768px) {
-  .logo {
-    gap: 4px !important;
-  }
 
-  .logo img {
-    height: 75px;   /* big logo as you want */
-    margin-right: 4px !important;
-  }
 
-  .logo h1 {
-    font-size: 18px;
-    margin-left: 0 !important;
-  }
-}
 
 
 
