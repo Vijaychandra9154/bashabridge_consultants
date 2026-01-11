@@ -206,13 +206,9 @@ footer {
 }
 
 .logo img {
-  width: 42px;
+  width: 84px;
   height: auto;
 }
-
-
-}
-
 /* CONTACT FORM */
 .contact-form {
   max-width: 520px;
@@ -265,6 +261,7 @@ h4 {
   font-size: 16px;
   color: #6b7280;
 }
+
 
 
 
