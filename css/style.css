@@ -311,11 +311,8 @@ h4 {
     padding: 10px 14px;  /* ✅ gives more space */
   }
 }
-.logo {
-  display: flex;
-  align-items: center;
-  flex-shrink: 0;
-}
+
+
 
 
 
