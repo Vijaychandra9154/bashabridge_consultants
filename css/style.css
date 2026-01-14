@@ -292,6 +292,31 @@ h4 {
 }
 
 
+/* ✅ BIG LOGO ON MOBILE */
+.logo img {
+  height: 60px;
+  width: auto;
+}
+
+@media (max-width: 768px) {
+  .logo img {
+    height: 85px;   /* ✅ increase logo size on mobile */
+  }
+
+  .logo {
+    gap: 6px;       /* ✅ reduce gap between logo + text */
+  }
+
+  header {
+    padding: 10px 14px;  /* ✅ gives more space */
+  }
+}
+.logo {
+  display: flex;
+  align-items: center;
+  flex-shrink: 0;
+}
+
 
 
 
