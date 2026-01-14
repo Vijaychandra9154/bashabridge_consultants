@@ -262,6 +262,23 @@ h4 {
   color: #6b7280;
 }
 
+/* About page spacing fix */
+.about-page h1,
+.about-page h2 {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.about-page p {
+  margin-top: 8px;
+  margin-bottom: 8px;
+}
+
+.about-page section {
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
 
 
 
