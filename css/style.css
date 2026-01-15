@@ -262,34 +262,24 @@ h4 {
   color: #6b7280;
 }
 
-/* ✅ ABOUT PAGE: Reduce huge gap between hero text & card */
-.about-page .hero {
-  padding-bottom: 20px !important;
+/* ✅ ABOUT PAGE GAP FIX (Mobile) */
+.about-hero {
+  padding: 40px 16px 20px 16px !important; /* top right bottom left */
 }
 
-.about-page .hero-inner {
-  padding-bottom: 0px !important;
-  margin-bottom: 0px !important;
+.about-hero h1 {
+  margin-bottom: 10px !important;
 }
 
-.about-page .hero h1 {
-  margin-bottom: 12px !important;
-}
-
-.about-page .hero p {
+.about-hero p {
   margin-top: 0px !important;
-  margin-bottom: 16px !important;
+  margin-bottom: 18px !important;
 }
 
-/* ✅ About first section (card section) comes closer */
-.about-page .section {
+.about-section {
   padding-top: 20px !important;
 }
 
-/* ✅ If card container has extra margin */
-.about-page .cards {
-  margin-top: 0px !important;
-}
 
 
 /* ✅ BIG LOGO ON MOBILE */
@@ -311,6 +301,7 @@ h4 {
     padding: 10px 14px;  /* ✅ gives more space */
   }
 }
+
 
 
 
