@@ -59,7 +59,7 @@ nav a {
 /* HERO */
 .hero {
   background: #f8fafc;
-  padding: 80px 20px;
+  padding: 40px 16px 20px 16px;
 }
 
 .hero-inner {
@@ -194,6 +194,18 @@ footer {
   nav.show {
     display: flex;
   }
+
+  .logo img {
+    height: 85px;
+  }
+
+  .logo {
+    gap: 6px;
+  }
+
+  header {
+    padding: 10px 14px;
+  }
 }
 
 /* ===== LOGO WITH TEXT ===== */
@@ -262,11 +274,6 @@ h4 {
   color: #6b7280;
 }
 
-/* ✅ Reduce gap on About page hero (if class is .hero) */
-.hero {
-  padding: 40px 16px 20px 16px;
-}
-
 .hero h1 {
   margin-bottom: 10px;
 }
@@ -275,51 +282,3 @@ h4 {
   margin-top: 0;
   margin-bottom: 18px;
 }
-
-
-
-
-/* ✅ BIG LOGO ON MOBILE */
-.logo img {
-  height: 60px;
-  width: auto;
-}
-
-@media (max-width: 768px) {
-  .logo img {
-    height: 85px;   /* ✅ increase logo size on mobile */
-  }
-
-  .logo {
-    gap: 6px;       /* ✅ reduce gap between logo + text */
-  }
-
-  header {
-    padding: 10px 14px;  /* ✅ gives more space */
-  }
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-

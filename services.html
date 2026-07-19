@@ -1,6 +1,14 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+  <!-- Google tag (gtag.js) -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-Y0MD5J903M"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'G-Y0MD5J903M');
+  </script>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Translation Services for Individuals & Businesses | Bhashabridge</title>
@@ -17,6 +25,9 @@
   <meta property="og:description" content="Personal, academic, corporate, and legal translation services in French, Japanese, and English.">
   <meta property="og:image" content="https://www.bhasha-bridge.com/assets/images/hero.jpg">
   <meta property="og:site_name" content="Bhashabridge Consultants">
+  <meta property="og:image:width" content="1050">
+  <meta property="og:image:height" content="700">
+  <meta property="og:locale" content="en_IN">
 
   <!-- Twitter Card -->
   <meta name="twitter:card" content="summary_large_image">
@@ -40,6 +51,9 @@
     "description": "Professional French–English and Japanese–English translation services for individuals and businesses.",
     "email": "bhashabridgeagra@gmail.com",
     "address": { "@type": "PostalAddress", "addressLocality": "Agra", "addressCountry": "IN" },
+    "telephone": "+91-9258577903",
+    "image": "https://www.bhasha-bridge.com/assets/images/logo-placeholder.png",
+    "areaServed": "IN",
     "sameAs": ["https://www.instagram.com/bhashabridgeagra"]
   }
   </script>
@@ -65,6 +79,7 @@
       <a href="services.html">Services</a>
       <a href="agency.html">Agency</a>
       <a href="french-classes.html">French Classes</a>
+      <a href="faq.html">FAQ</a>
       <a href="about.html">About</a>
       <a href="contact.html">Contact</a>
     </nav>
@@ -126,13 +141,39 @@
 </section>
 
 <!-- CTA -->
-<section class="cta">
+<section class="cta" id="quote">
   <h2>Need a Custom Translation Solution?</h2>
+  <p>Send us your document details below and we'll get back to you with a quote.</p>
 
-  <!-- DIFFERENT LINKS -->
-<a class="btn primary" href="contact.html#quote">Request a Quote</a>
-<!-- <a class="btn secondary" href="contact.html#contact">Contact Us</a> -->
+  <form
+    action="https://formsubmit.co/bhashabridgeagra@gmail.com"
+    method="POST"
+    class="contact-form"
+  >
+    <input type="hidden" name="_subject" value="New quote request from Services page">
+    <input type="hidden" name="_captcha" value="false">
+    <input type="hidden" name="_template" value="table">
+    <input type="hidden" name="_autoresponse"
+      value="Thank you for contacting Bhashabridge Consultants. We have received your quote request and will respond shortly.">
 
+    <div class="form-group">
+      <input type="text" name="name" placeholder="Your Name" required>
+    </div>
+
+    <div class="form-group">
+      <input type="email" name="email" placeholder="Your Email" required>
+    </div>
+
+    <div class="form-group">
+      <input type="text" name="document_type" placeholder="Document Type (e.g. academic transcript, contract)">
+    </div>
+
+    <div class="form-group">
+      <textarea name="message" rows="4" placeholder="Tell us about your translation needs" required></textarea>
+    </div>
+
+    <button type="submit" class="btn primary">Request a Quote</button>
+  </form>
 </section>
 
 
@@ -169,13 +210,3 @@
 <script src="js/nav.js"></script>
 </body>
 </html>
-
-
-
-
-
-
-
-
-
-
