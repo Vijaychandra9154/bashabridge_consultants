@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 400" role="img" aria-labelledby="eiffelTitle">
+  <title id="eiffelTitle">A line-art illustration of the Eiffel Tower</title>
+  <defs>
+    <linearGradient id="eiffelBg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#fbf4e5"/>
+      <stop offset="100%" stop-color="#f0e0bd"/>
+    </linearGradient>
+  </defs>
+  <rect width="600" height="400" fill="url(#eiffelBg)"/>
+
+  <path d="M150 360 H450" fill="none" stroke="#1c2430" stroke-width="6" stroke-linecap="round"/>
+
+  <path d="M170 360 C215 275 250 215 272 158 C283 128 292 96 300 62" fill="none" stroke="#1c2430" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M430 360 C385 275 350 215 328 158 C317 128 308 96 300 62" fill="none" stroke="#1c2430" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <path d="M203 252 H397" fill="none" stroke="#1c2430" stroke-width="5" stroke-linecap="round"/>
+  <path d="M248 156 H352" fill="none" stroke="#a8763a" stroke-width="4" stroke-linecap="round"/>
+
+  <path d="M188 360 L272 252 M412 360 L328 252 M225 252 L272 158 M375 252 L328 158" fill="none" stroke="#a8763a" stroke-width="2" opacity="0.4"/>
+
+  <circle cx="300" cy="60" r="6" fill="#a8763a"/>
+</svg>

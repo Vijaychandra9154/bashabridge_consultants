@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 400" role="img" aria-labelledby="toriiTitle">
+  <title id="toriiTitle">A line-art illustration of a torii gate</title>
+  <defs>
+    <linearGradient id="toriiBg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#fbf4e5"/>
+      <stop offset="100%" stop-color="#f0e0bd"/>
+    </linearGradient>
+  </defs>
+  <rect width="600" height="400" fill="url(#toriiBg)"/>
+
+  <path d="M150 360 H450" fill="none" stroke="#1c2430" stroke-width="6" stroke-linecap="round"/>
+
+  <path d="M222 360 L230 138" fill="none" stroke="#1c2430" stroke-width="6" stroke-linecap="round"/>
+  <path d="M378 360 L370 138" fill="none" stroke="#1c2430" stroke-width="6" stroke-linecap="round"/>
+
+  <path d="M205 196 H395" fill="none" stroke="#1c2430" stroke-width="5" stroke-linecap="round"/>
+
+  <path d="M155 152 Q300 136 445 152" fill="none" stroke="#a8763a" stroke-width="7" stroke-linecap="round"/>
+  <path d="M150 154 L162 142" fill="none" stroke="#a8763a" stroke-width="7" stroke-linecap="round"/>
+  <path d="M450 154 L438 142" fill="none" stroke="#a8763a" stroke-width="7" stroke-linecap="round"/>
+
+  <circle cx="300" cy="118" r="5" fill="#a8763a"/>
+</svg>
